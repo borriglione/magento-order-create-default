@@ -1,0 +1,12 @@
+"Order create default","Bestellung anlegen - Standardwerte"
+"Default values","Standardwerte"
+"Element Id","Element Id"
+"Value","Wert"
+"Add default value","Standardwert hinzufügen"
+"Customer default keys are: <br />'tax_class_id','group_id','email','prefix','firstname','middlename','lastname','suffix','dob','gender'<br /><br />
+Customer address default keys are: <br />
+'customer_id', 'save_in_address_book', 'customer_address_id', 'email', 'prefix', 'firstname', 'middlename', 'lastname', 'suffix', 'company', 'street', 'city', 'region', 'postcode', 'country_id', 'telephone', 'fax', 'dhlaccount'<br /><br />
+{{quote_id}} can be used as placeholder.","Die Kunden Standard-Element-IDs lauten: <br />'tax_class_id','group_id','email','prefix','firstname','middlename','lastname','suffix','dob','gender'<br /><br />
+Die Standard-Address-Ids lauten: <br />
+'customer_id', 'save_in_address_book', 'customer_address_id', 'email', 'prefix', 'firstname', 'middlename', 'lastname', 'suffix', 'company', 'street', 'city', 'region', 'postcode', 'country_id', 'telephone', 'fax', 'dhlaccount'<br /><br />
+{{quote_id}} kann als dynamischer Platzhalter verwendet werden."

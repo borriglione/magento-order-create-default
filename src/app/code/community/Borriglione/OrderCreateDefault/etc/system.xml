@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category   Borriglione
+ * @package    Borriglione_OrderCreateDefault
+ * @copyright  Copyright (c) 2014 André Herrn <info@andre-herrn.de>
+ * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ */
+-->
+<config>
+    <sections>
+        <sales>
+            <groups>
+                <order_create_default translate="label">
+                    <label>Order create default</label>
+                    <sort_order>1000</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <values translate="label">
+                            <label>Default values</label>
+                            <comment><![CDATA[Customer default keys are: <br />'tax_class_id','group_id','email','prefix','firstname','middlename','lastname','suffix','dob','gender'<br /><br />
+Customer address default keys are: <br />
+'customer_id', 'save_in_address_book', 'customer_address_id', 'email', 'prefix', 'firstname', 'middlename', 'lastname', 'suffix', 'company', 'street', 'city', 'region', 'postcode', 'country_id', 'telephone', 'fax', 'dhlaccount'<br /><br />
+{{quote_id}} can be used as placeholder.]]></comment>
+                            <frontend_model>borriglione_ordercreatedefault/adminhtml_system_config_form_field_defaultValues</frontend_model>
+                            <backend_model>adminhtml/system_config_backend_serialized_array</backend_model>
+                            <sort_order>150</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </values>
+                    </fields>
+                </order_create_default>
+            </groups>
+        </sales>
+    </sections>
+</config>
+
+
+
+

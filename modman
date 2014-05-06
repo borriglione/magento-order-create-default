@@ -1,0 +1,3 @@
+src/app/code/community/Borriglione/OrderCreateDefault     app/code/community/Borriglione/OrderCreateDefault
+src/app/etc/modules/*    app/etc/modules/
+src/app/locale/de_DE/Borriglione_OrderCreateDefault.csv app/locale/de_DE/Borriglione_OrderCreateDefault.csv

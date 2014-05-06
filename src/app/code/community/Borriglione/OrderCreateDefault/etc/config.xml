@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category   Borriglione
+ * @package    Borriglione_OrderCreateDefault
+ * @copyright  Copyright (c) 2014 André Herrn <info@andre-herrn.de>
+ * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ */
+-->
+<config>
+
+    <modules>
+        <Borriglione_OrderCreateDefault>
+            <version>0.1.0</version>
+        </Borriglione_OrderCreateDefault>
+    </modules>
+
+    <global>
+        <blocks>
+            <borriglione_ordercreatedefault>
+                <class>Borriglione_OrderCreateDefault_Block</class>
+            </borriglione_ordercreatedefault>
+            <adminhtml>
+                <rewrite>
+                    <sales_order_create_billing_address>Borriglione_OrderCreateDefault_Block_Adminhtml_Sales_Order_Create_Billing_Address</sales_order_create_billing_address>
+                    <sales_order_create_shipping_address>Borriglione_OrderCreateDefault_Block_Adminhtml_Sales_Order_Create_Shipping_Address</sales_order_create_shipping_address>
+                    <sales_order_create_form_account>Borriglione_OrderCreateDefault_Block_Adminhtml_Sales_Order_Create_Form_Account</sales_order_create_form_account>
+                </rewrite>
+            </adminhtml>
+        </blocks>
+
+        <helpers>
+            <borriglione_ordercreatedefault>
+                <class>Borriglione_OrderCreateDefault_Helper</class>
+            </borriglione_ordercreatedefault>
+        </helpers>
+    </global>
+
+    <adminhtml>
+        <translate>
+            <modules>
+                <Borriglione_OrderCreateDefault>
+                    <files>
+                        <default>Borriglione_OrderCreateDefault.csv</default>
+                    </files>
+                </Borriglione_OrderCreateDefault>
+            </modules>
+        </translate>
+    </adminhtml>
+
+    <default>
+        <customer>
+            <account_share>
+                <show_current_store>1</show_current_store>
+            </account_share>
+        </customer>
+    </default>
+</config>
